@@ -1,20 +1,16 @@
-baseURL = ''
-languageCode = 'en-us'
-title = 'FediWorld'
-theme = 'PaperMod'
+baseURL: ""
+languageCode: en-us
+title: FediWorld
+theme: PaperMod
 
-[menu]
-  [[menu.main]]
-    name = "Archive"
-    url = "/archive/"
-    weight = 10
-
-  [[menu.main]]
-    name = "Categories"
-    url = "/categories/"
-    weight = 20
-
-  [[menu.main]]
-    name = "Tags"
-    url = "/tags/"
-    weight = 30
+menu:
+  main:
+    - name: Archive
+      url: /archive/
+      weight: 10
+    - name: Categories
+      url: /categories/
+      weight: 20
+    - name: Tags
+      url: /tags/
+      weight: 30
